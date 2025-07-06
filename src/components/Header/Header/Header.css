@@ -1,0 +1,38 @@
+header {
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e1e1e;
+}
+strong {
+  color: #000000;
+}
+
+.navbar-custom {
+  background-color: #444;
+  color: #eee;
+}
+
+.navbar-title {
+  margin: 0;
+  line-height: 1;
+
+  font-size: 1.5rem;
+}
+.navbar-custom ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .nav-link:hover {
+  .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.8); /* texte blanc à 80% d'opacité */
+    transition: color 0.3s ease;
+  }
+}
