@@ -10,7 +10,6 @@ const ScrollToTopButton = () => {
     };
     window.addEventListener("scroll", onScroll);
 
-    // Nettoyage à la destruction du composant
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 

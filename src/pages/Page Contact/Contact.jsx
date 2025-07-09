@@ -111,7 +111,6 @@ const Contact = () => {
             </form>
           </div>
 
-          {/* Coordonnées */}
           <div className="col-12 col-sm-6 d-flex flex-column">
             <h4>Mes coordonnées</h4>
             <div

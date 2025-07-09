@@ -77,15 +77,15 @@ const Home = () => {
 
               {/* HTML */}
               <div className="mb-3 text-start">
-                <label htmlFor="htmlProgress" className="form-label">
+                <span id="htmlLabel" className="form-label">
                   HTML
-                </label>
+                </span>
                 <div className="progress">
                   <div
                     id="htmlProgress"
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "90%", backgroundColor: "#e34c26" }} // Couleur personnalisée HTML (orange)
+                    style={{ width: "90%", backgroundColor: "#e34c26" }}
                     aria-valuenow="90"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -97,15 +97,15 @@ const Home = () => {
 
               {/* CSS */}
               <div className="mb-3 text-start">
-                <label htmlFor="cssProgress" className="form-label">
+                <span id="cssLabel" className="form-label">
                   CSS
-                </label>
+                </span>
                 <div className="progress">
                   <div
                     id="cssProgress"
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "90%", backgroundColor: "#264de4" }} // Couleur CSS (bleu)
+                    style={{ width: "90%", backgroundColor: "#264de4" }}
                     aria-valuenow="90"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -117,9 +117,9 @@ const Home = () => {
 
               {/* JavaScript */}
               <div className="mb-3 text-start">
-                <label htmlFor="jsProgress" className="form-label">
+                <span id="jsLabel" className="form-label">
                   JavaScript
-                </label>
+                </span>
                 <div className="progress">
                   <div
                     id="jsProgress"
@@ -141,15 +141,15 @@ const Home = () => {
 
               {/* Vue.js */}
               <div className="mb-3 text-start">
-                <label htmlFor="vueProgress" className="form-label">
+                <span id="vueProgressLabel" className="form-label">
                   Vue.js
-                </label>
+                </span>
                 <div className="progress">
                   <div
-                    id="vueProgress"
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "85%", backgroundColor: "#42b883" }} // Vert Vue.js
+                    aria-labelledby="vueProgressLabel"
+                    style={{ width: "85%", backgroundColor: "#42b883" }}
                     aria-valuenow="85"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -161,19 +161,19 @@ const Home = () => {
 
               {/* React */}
               <div className="mb-3 text-start">
-                <label htmlFor="reactProgress" className="form-label">
+                <span id="reactProgressLabel" className="form-label">
                   React
-                </label>
+                </span>
                 <div className="progress">
                   <div
-                    id="reactProgress"
                     className="progress-bar"
                     role="progressbar"
+                    aria-labelledby="reactProgressLabel"
                     style={{
                       width: "60%",
                       backgroundColor: "#61dafb",
                       color: "#000",
-                    }} // Bleu clair React + texte noir
+                    }}
                     aria-valuenow="60"
                     aria-valuemin="0"
                     aria-valuemax="100"

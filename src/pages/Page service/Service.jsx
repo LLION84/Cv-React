@@ -1,4 +1,3 @@
-import React from "react";
 import "./Service.css";
 import { FaDesktop, FaFileCode, FaSearchDollar } from "react-icons/fa";
 const Service = () => {
@@ -35,8 +34,8 @@ const Service = () => {
             margin: "0 auto",
           }}
         >
-          {/* Bloc 1 */}
           <div
+            className="service-article"
             style={{
               backgroundColor: "rgba(255, 255, 255, 0.95)",
               padding: "2rem 1.5rem 3rem 1.5rem",
@@ -48,7 +47,7 @@ const Service = () => {
               border: "1px solid #dee2e6",
             }}
           >
-            <FaDesktop size={40} color="#0d6efd" />
+            <FaDesktop size={40} />
             <h2 className="mt-3" style={{ fontSize: "1.4rem" }}>
               UX DESIGN
             </h2>
@@ -60,8 +59,8 @@ const Service = () => {
             </p>
           </div>
 
-          {/* Bloc 2 */}
           <div
+            className="service-article"
             style={{
               backgroundColor: "rgba(255, 255, 255, 0.95)",
               padding: "2rem 1.5rem 3rem 1.5rem",
@@ -73,7 +72,7 @@ const Service = () => {
               border: "1px solid #dee2e6",
             }}
           >
-            <FaFileCode size={40} color="#0d6efd" />
+            <FaFileCode size={40} />
             <h2 className="mt-3" style={{ fontSize: "1.4rem" }}>
               Développement Web
             </h2>
@@ -84,8 +83,8 @@ const Service = () => {
             </p>
           </div>
 
-          {/* Bloc 3 */}
           <div
+            className="service-article"
             style={{
               backgroundColor: "rgba(255, 255, 255, 0.95)",
               padding: "2rem 1.5rem 3rem 1.5rem",
@@ -97,7 +96,7 @@ const Service = () => {
               border: "1px solid #dee2e6",
             }}
           >
-            <FaSearchDollar size={40} color="#0d6efd" />
+            <FaSearchDollar size={40} />
             <h2 className="mt-3" style={{ fontSize: "1.4rem" }}>
               SEO & Marketing
             </h2>
