@@ -5,7 +5,7 @@ Réalisé dans le cadre d'un exercice étudiant.
 
 ## 🚀 Démo
 
-👉 [Lien vers le site hébergé](https://ton-lien-vercel-ou-netlify.com)  
+👉 [Lien vers le site hébergé]([https://ton-lien-vercel-ou-netlify.com](https://cheery-cactus-430463.netlify.app/))  
 _(Remplace ce lien par celui de ton hébergement une fois déployé.)_
 
 ## 🛠️ Technologies utilisées
