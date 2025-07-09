@@ -125,7 +125,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Colonne 3 : Dernières réalisations */}
             <div className="col-12 col-md-6 col-lg-3 mb-4">
               <h5>Mes dernières réalisations</h5>
               <ul className="list-unstyled">
@@ -168,7 +167,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Colonne 4 : Derniers articles */}
             <div className="col-12 col-md-6 col-lg-3 mb-4">
               <h5>Mes derniers articles</h5>
               <ul className="list-unstyled">
@@ -214,7 +212,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="bg-dark text-light text-center py-3 position-relative mb-4">
         <small>&copy; 2025 John Doe. Tous droits réservés.</small>
       </div>

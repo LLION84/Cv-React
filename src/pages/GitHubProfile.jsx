@@ -53,4 +53,3 @@ const GitHubProfile = () => {
 };
 
 export default GitHubProfile;
-// ✅ Cette page s'affiche via l'URL /github (voir App.js)

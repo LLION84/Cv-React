@@ -40,3 +40,9 @@ Blaise Zinou — Étudiant en développement web full-stack
 📝 Licence
 Ce projet est libre d'utilisation dans un contexte éducatif.
 ```
+
+## Site en ligne
+
+Mon CV React est déployé ici : [Voir le site](https://cheery-cactus-430463.netlify.app/)
+
+[![Valid HTML5](https://validator.w3.org/nu/?doc=https://cheery-cactus-430463.netlify.app/)](https://validator.w3.org/nu/?doc=https://cheery-cactus-430463.netlify.app/)

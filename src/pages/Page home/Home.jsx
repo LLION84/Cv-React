@@ -25,7 +25,6 @@ const Home = () => {
         className="about-section container my-5 p-4 rounded shadow-sm bg-light"
       >
         <div className="row align-items-start">
-          {/* Texte + titre + ligne bleue */}
           <div className="col-md-6 mb-4 mb-md-0">
             <h2 className="position-relative d-inline-block mb-3 about-title">
               À propos
@@ -61,9 +60,7 @@ const Home = () => {
             </p>
           </div>
 
-          {/* Image en haut + compétences en dessous */}
           <div className="col-md-6 text-center">
-            {/* ✅ IMAGE */}
             <img
               src="/img/imglion.jpg"
               alt="John Doe"
@@ -71,11 +68,9 @@ const Home = () => {
               style={{ width: "550px", borderRadius: "8px" }} // coins légèrement arrondis
             />
 
-            {/* ✅ COMPÉTENCES */}
             <div>
               <h4>Compétences</h4>
 
-              {/* HTML */}
               <div className="mb-3 text-start">
                 <span id="htmlLabel" className="form-label">
                   HTML
@@ -95,7 +90,6 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* CSS */}
               <div className="mb-3 text-start">
                 <span id="cssLabel" className="form-label">
                   CSS
@@ -115,7 +109,6 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* JavaScript */}
               <div className="mb-3 text-start">
                 <span id="jsLabel" className="form-label">
                   JavaScript
@@ -129,7 +122,7 @@ const Home = () => {
                       width: "60%",
                       backgroundColor: "#f0db4f",
                       color: "#000",
-                    }} // Jaune JS + texte noir pour contraste
+                    }}
                     aria-valuenow="60"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -139,7 +132,6 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* Vue.js */}
               <div className="mb-3 text-start">
                 <span id="vueProgressLabel" className="form-label">
                   Vue.js
@@ -159,7 +151,6 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* React */}
               <div className="mb-3 text-start">
                 <span id="reactProgressLabel" className="form-label">
                   React
