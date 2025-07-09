@@ -6,6 +6,7 @@ Réalisé dans le cadre d'un exercice étudiant.
 ## 🚀 Démo
 
 👉https://cheery-cactus-430463.netlify.app/
+
 ## 🛠️ Technologies utilisées
 
 - React
@@ -44,3 +45,13 @@ Ce projet est libre d'utilisation dans un contexte éducatif.
 Mon CV React est déployé ici : [Voir le site](https://cheery-cactus-430463.netlify.app/)
 
 [![Valid HTML5](https://validator.w3.org/nu/?doc=https://cheery-cactus-430463.netlify.app/)](https://validator.w3.org/nu/?doc=https://cheery-cactus-430463.netlify.app/)
+
+## Accéder au profil GitHub
+
+Pour voir le profil GitHub directement sur le site, il suffit de cliquer sur le lien **À propos** dans le **footer** (pied de page).
+
+Cela affichera toutes les informations importantes de mon profil GitHub, comme mon avatar, ma bio, mes repos publics, et plus encore.
+
+---
+
+Merci de votre visite !

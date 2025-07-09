@@ -79,12 +79,12 @@ const Footer = () => {
                     style={{ color: "#0d6efd" }}
                     className="me-2"
                   />
-                  <a
-                    href="#skills"
+                  <Link
+                    to="/github"
                     style={{ color: "#444", textDecoration: "none" }}
                   >
                     À propos
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <FaChevronRight
